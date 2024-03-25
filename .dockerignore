@@ -1,0 +1,36 @@
+# Ignore docker files
+.dockerignore
+Dockerfile
+docker-compose.yaml
+
+# Ignore version control system directories
+.git
+.gitignore
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__
+
+# Ignore editor-specific files
+.vscode
+*.swp
+
+# Ignore local development files
+*.log
+
+# Ignore markdown files
+*.md
+
+# Ignore Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
