@@ -43,7 +43,7 @@ docker run -t \
     -p 8000:8000 \
     -p 8765:8765 \
     -v $(pwd):/docs \
-    miaul python /app/miaul.py /docs/README.md
+    eduardoloursilva/github-miaul python /app/miaul.py /docs/README.md
 ```
 
 
